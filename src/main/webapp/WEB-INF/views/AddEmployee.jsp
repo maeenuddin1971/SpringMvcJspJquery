@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col">
                 <div class="form-group">
-                    <label for="name">Name</label> <input type="text"
+                    <label for="name"><%= new java.util.Date() %></label> <input type="text"
                                                           class="form-control" id="name" name="name"
                                                           placeholder="Enter Name">
                 </div>

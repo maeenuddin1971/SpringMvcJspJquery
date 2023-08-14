@@ -19,4 +19,9 @@ public class TestController {
     public ResponseEntity<?> testIfItOk() {
         return new ResponseEntity<>("everything is working fine", HttpStatus.OK);
     }
+
+    @GetMapping("/testJsp")
+    public String testJsp() {
+        return "practiceJspPage";
+    }
 }
